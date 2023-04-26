@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+.modeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.lightModeContainer{
+    background-color: white;
+    color: black;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.darkModeContainer{
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 .darkMode{
     background-color: black;
     color: white;
@@ -12,4 +37,17 @@
 .lightMode{
     background-color: white;
     color: black;
+}
+
+.divButton{
+    padding-bottom: 10px;
+}
+
+h4{
+    padding-bottom: 5px;
+}
+
+.btnDark{
+    background-color: #000;
+    color: #fff;
 }
