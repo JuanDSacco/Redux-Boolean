@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
-.contenedor{
+.darkMode{
+    background-color: black;
+    color: white;
+}
 
+.lightMode{
+    background-color: white;
+    color: black;
 }
