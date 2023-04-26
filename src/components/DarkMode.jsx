@@ -6,7 +6,7 @@ const DarkMode = () => {
     const mode = useSelector((state) => state.mode)
 
     const dispatch = useDispatch();
-    console.log(mode);
+    
     return(
         <>
             {
